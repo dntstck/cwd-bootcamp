@@ -4,10 +4,9 @@
 
 - Dru Delarosa / @dntstck
 - email: drudelarosa@icloud.com
-- :)
 
 
 ## Notes
 
-- notes etc goes here
+- notes etc here
 - ...
