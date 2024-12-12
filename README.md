@@ -1,2 +1,3 @@
-# fullstack-bootcamp
-full stack bootcamp public repo
+# Full Stack Development Bootcamp
+
+<img src="icon.png" align="right"/>
