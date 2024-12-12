@@ -1,4 +1,4 @@
-# Full Stack Development Bootcamp
+# Cloud Web Development Bootcamp
 
 <img src="icon.png" align="right"/>
 
