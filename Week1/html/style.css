@@ -1,0 +1,15 @@
+body { /* sets the following code block to the <body> element */
+    font-family: monospace; /* sets the font family */
+    background-color: #3d0d28; /* sets the bg colour */
+    color: #db5b05; /* the colour rgb code for the font */
+    padding: 20px; /* sets the padding to 20 pixels, which generates 20 pixels of space around an element */
+}
+
+
+
+#menuList { /* sets following code block to the menuList element */
+    width: 100%; /* sets the width of this element to 100% */
+    padding: 10px; /* sets the padding to 10 pixels */
+    background-color: #3d0d28; /* sets the background colour of this element to the defined rgb code */
+    color: #db5b05; /* sets the colour (text) to the defined rgb code */
+} 
