@@ -1,15 +1,42 @@
 body { /* sets the following code block to the <body> element */
     font-family: monospace; /* sets the font family */
-    background-color: #3d0d28; /* sets the bg colour */
+    background-color: #313131; /* sets the bg colour */
     color: #db5b05; /* the colour rgb code for the font */
     padding: 20px; /* sets the padding to 20 pixels, which generates 20 pixels of space around an element */
 }
 
+header {
+    font-family: monospace;
+    background-color: rgb(102, 102, 102);
+    color: rgb(102, 102, 102);
+}
 
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
-#menuList { /* sets following code block to the menuList element */
-    width: 100%; /* sets the width of this element to 100% */
-    padding: 10px; /* sets the padding to 10 pixels */
-    background-color: #3d0d28; /* sets the background colour of this element to the defined rgb code */
-    color: #db5b05; /* sets the colour (text) to the defined rgb code */
-} 
+nav a{
+    color: #313131;
+
+}
+
+#home {
+    text-align: center;
+
+}
+
+#about {
+    text-align: center;
+}
+
+#latest-proj {
+    text-align: center;
+}
+
+#project1 {
+    text-align: center;
+}

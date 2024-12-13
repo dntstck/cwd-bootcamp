@@ -1,26 +1,12 @@
 // simplecalc.js
 // dru delarosa
 
-//      pseudo
-//
-//  userinput1 = first number
-//      >
-//  userconditional = add/sub/div/mul
-//      >
-//  userinput2 = second number
-//          >
-//            return result
-//          if not a digit/cmd throw error 
-//                >
-//              ask user for another calculation
-//          >
-//          call function again       
-//          >
-//          if none/exit cmd
-//      exit
 
-let firstNumber = prompt("enter a number:");
-let secondNumber = prompt("enter a second number:");
+let firstNumber = parseInt(prompt("enter a number:")); // only permits parsing of integers
+let secondNumber = parseInt(prompt("enter a second number:"));
+
 const calculateValues = firstNumber + secondNumber;
+alert(`Result: ${calculateValues}`); //returns the result 
+
 
 
