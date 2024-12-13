@@ -19,3 +19,8 @@
 //          if none/exit cmd
 //      exit
 
+let firstNumber = prompt("enter a number:");
+let secondNumber = prompt("enter a second number:");
+const calculateValues = firstNumber + secondNumber;
+
+
