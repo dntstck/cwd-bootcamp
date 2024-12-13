@@ -9,7 +9,6 @@
 ## Week 1
 - HTML & CSS
 - Javascript Types & Conditionals
-- Simple Calculator
 - Compliment Generator
 
 ## Week 2
