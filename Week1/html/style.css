@@ -5,6 +5,7 @@ body { /* sets the following code block to the <body> element */
     padding: 20px; /* sets the padding to 20 pixels, which generates 20 pixels of space around an element */
 }
 
+/* set the colours of links*/
 a:link{
     color:#db5b05;
 }
