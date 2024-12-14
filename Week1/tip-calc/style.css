@@ -52,19 +52,14 @@ nav a{
     text-align: center;
 }
 
-#latest-proj {
-    margin: auto;
-    padding: 10px;
-    text-align: center;
-    background-color: rgb(102, 102, 102);
-    max-width: 600px;
-    position: relative;
-    border: #52575a;
-    box-shadow: 2px 2px 6px 1px #52575a;
-    
-
-}
-
-#project1 {
+.container {
+    width: 350px;
+    height: 500px;
+    background-color: #52575a;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 20px;
     text-align: center;
 }
