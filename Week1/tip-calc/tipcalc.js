@@ -3,10 +3,9 @@
 
  function getInput(){
     console.log("tip calc")
-    let billTotal = parseFloat(prompt("What's the bill?"));
+    let billTotal = parseFloat(prompt("Enter bill total: "));
     let totalPayee = parseInt(prompt("Shared by how many?"));
     let tipPct = parseFloat(prompt("What's the tip percentage?\n (0.5 = 5%, 0.10 = 10%, 0.25 = 25%)"));
-    
 
 
 
@@ -14,14 +13,23 @@
         if (totalPayee === 1){  
             let tipTotal = (billTotal * tipPct);
             let maxTotal = (billTotal + tipTotal);
+            tipTotal = tipTotal.toFixed(2); // enables correct use of decimal points when working with currency
+            maxTotal = maxTotal.toFixed(2);
             console.log(maxTotal, tipTotal) // log this
-        alert(`divided by ${totalPayee} people, the tip is ${tipTotal}.\n total amount to pay is ${maxTotal}`);
-        }
+            document.getElementById('maxtotal').innerText = maxTotal
+            document.getElementById('total').innerText = tipTotal; //change html element
+        alert(` £${billTotal} divided by 1 person, with a ${tipPct}% tip is £${tipTotal}.\n total amount to pay is £${maxTotal}`);}
         if (totalPayee > 1){
             let tipTotal = (billTotal * tipPct) / totalPayee;
             let maxTotal = (billTotal + tipTotal);
-            console.log(billTotal, tipPct, tipTotal, maxTotal); // log this
-            alert(`divided by ${totalPayee} people, the tip is ${tipTotal}. \n total amount to pay is ${maxTotal}`);
+            let perPerson = (tipTotal / totalPayee);
+            tipTotal = tipTotal.toFixed(2);
+            maxTotal = maxTotal.toFixed(2);
+            perPerson = perPerson.toFixed(2);
+            console.log("bill: £", billTotal, "tip pct: " , tipPct, "tip: £", tipTotal, "total: £", maxTotal, "per person: £", perPerson);
+            document.getElementById('maxtotal').innerText = maxTotal 
+            document.getElementById('total').innerText = perPerson; // change element
+            alert(`£${billTotal} divided by ${totalPayee} people, with a ${tipPct}% tip is: £${tipTotal}. \n total amount to pay is: £${maxTotal} \n the tip per person is: £${perPerson}`);
         }
     }
 }
