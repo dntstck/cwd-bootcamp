@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <title>About - Dru Delarosa</title>
-    <link rel="stylesheet" href="/Week1/html/style.css"></link>
+    <link rel="stylesheet" href="/Week1/html/about-style.css"></link>
 </head>
 <body>
     <header>
@@ -17,23 +17,39 @@
         </nav>
     </header>
     <main>
-        <section id="about">
+        <section id="main">
             <div class="about-text">
                 <br> <img src="/Week1/html/avatar.jpg"></img>
-                <h1>Dru Delarosa</h1>
-                <br><hl>About</h1></hl>
-                <p></p>
-                <p></p>
+               <div><h1>Dru Delarosa</h1></div>
+                <div><br><hl>About Dru</hl>
+
+                <p>Hi there! I'm Dru, an aspiring software developer hailing from Cambridgeshire.<br>
+                    <br><select id="interests">
+                        <option selected disabled default value="error">My Interests</option>
+                        <option value="https://www.raspberrypi.org/">Raspberry Pi</option>
+                        <option value="https://thepihut.com/products/raspberry-pi-pico-2-w">Raspberry Pico</option>
+                        <option value="https://thepihut.com/products/raspberry-pi-rp2040-microcontroller">Microcontrollers</option>
+                        <option value="https://github.com/kilograham/rp2040-doom">Games developed in C</option>
+                        <option value="https://www.ubuntu.com/">Linux</option>
+                        <option value="https://www.vim.org/">Vim</option>
+                        <option value="https://www.github.com/dntstck/">Coding</option>
+
+                    </select><button onclick="interestsFunc()">More</button><br><br>
+
+                <p>My projects & more can be found on my GitHub</p></div>
             </div>
             <section id="latest-proj">
                 <h2>Latest Projects</h2>
                 <section id="project1">
                     <h3><a href="/Week1/compliment-gen/index.html">Compliment Generator</a></h3>
+                    <section id="project1">
+                        <h3><a href="/Week1/tip-calc/index.html">Tip Calculator</a></h3>
                     <section id="project2">
                         <h3><a href="https://github.com/dntstck/cwd-bootcamp">CWD Bootcamp</a></h3>
             </section>
+            </section>
         </section>
-        <script src="script.js"></script>
+        <script src="about.js"></script>
 
     </main>
 </body>

@@ -18,18 +18,20 @@
             console.log(maxTotal, tipTotal) // log this
             document.getElementById('maxtotal').innerText = maxTotal
             document.getElementById('total').innerText = tipTotal; //change html element
-        alert(` £${billTotal} divided by 1 person, with a ${tipPct}% tip is £${tipTotal}.\n total amount to pay is £${maxTotal}`);}
+        alert(` £${billTotal} divided by 1 person, with a ${tipPct}% tip is £${tipTotal}.\n total amount to pay is £${maxTotal}.`);}
         if (totalPayee > 1){
             let tipTotal = (billTotal * tipPct) / totalPayee;
             let maxTotal = (billTotal + tipTotal);
             let perPerson = (tipTotal / totalPayee);
+            let paymentPer = (maxTotal / totalPayee);
             tipTotal = tipTotal.toFixed(2);
             maxTotal = maxTotal.toFixed(2);
             perPerson = perPerson.toFixed(2);
             console.log("bill: £", billTotal, "tip pct: " , tipPct, "tip: £", tipTotal, "total: £", maxTotal, "per person: £", perPerson);
-            document.getElementById('maxtotal').innerText = maxTotal 
-            document.getElementById('total').innerText = perPerson; // change element
-            alert(`£${billTotal} divided by ${totalPayee} people, with a ${tipPct}% tip is: £${tipTotal}. \n total amount to pay is: £${maxTotal} \n the tip per person is: £${perPerson}`);
+            document.getElementById('maxtotal').innerText = "£" + maxTotal 
+            document.getElementById('total').innerText = "£" + perPerson;
+            document.getElementById('totaleach').innerText = "£" + paymentPer; // change elements
+            alert(`£${billTotal} divided by ${totalPayee} people, with a ${tipPct}% tip is: £${tipTotal}. \n total amount to pay is: £${maxTotal} \n the tip per person is: £${perPerson}.\n amount required per person is: £${perPerson}`);
         }
     }
 }
