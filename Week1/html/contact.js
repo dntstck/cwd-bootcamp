@@ -3,6 +3,11 @@
 function contactFunc(){
 const selectOpt = document.getElementById('contactlist');
 const selectedOpt = selectOpt.value;
-window.open(selectedOpt);
 
+if (selectOpt.value === "error") {
+    alert("Please select a contact option.");
+}
+    else {
+        window.open(selectedOpt);
+    }
 }
