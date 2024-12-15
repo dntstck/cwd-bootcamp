@@ -10,6 +10,7 @@
 - HTML & CSS
 - Javascript Types & Conditionals
 - Compliment Generator
+- Tip Calculator
 
 ## Week 2
 - TBC
