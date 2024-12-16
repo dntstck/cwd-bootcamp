@@ -32,8 +32,16 @@ function dailyImg() {
     });
 }
 
+function iterateValues(){
+    for (let i = 0; i < 100;){
+        console.log(i);
+    }
+    
+}
+
+iterateValues()
 
 //const item = new Shoppingitem("laptop", "1500");
 
-dailyImg();
-getShoppingList();
+//dailyImg();
+//getShoppingList();
