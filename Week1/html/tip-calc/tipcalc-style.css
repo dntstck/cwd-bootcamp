@@ -21,6 +21,8 @@ a:active{
 }
 
 header {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
     font-family: monospace;
     background-color: rgb(102, 102, 102);
     color: rgb(102, 102, 102);
