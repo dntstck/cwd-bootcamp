@@ -8,7 +8,7 @@
 ## Week 1
 
 * HTML & CSS
-* Creating a cross-platform, device responsive & dynamic website
+* Creating a cross-platform, device responsive & dynamic websites
 * Portfolio
 * Javascript Basics, Types & Conditionals
 * Compliment Generator
