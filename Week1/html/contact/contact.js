@@ -6,6 +6,7 @@ const selectedOpt = selectOpt.value;
 
 if (selectOpt.value === "error") {
     alert("Please select a contact option.");
+    console.log("no contact option selected")
 }
     else {
         window.open(selectedOpt);

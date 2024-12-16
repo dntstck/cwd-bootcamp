@@ -4,9 +4,12 @@ const selectedOpt = selectOpt.value;
 
 if (selectOpt.value === "error") {
     alert("Please select an interest.");
+    ;console.log("no interest selected");
+    
 }
     else {
         window.open(selectedOpt);
+        console.log("window opened with: " + selectedOpt);
     }
 }
 
