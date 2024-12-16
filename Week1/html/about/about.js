@@ -9,3 +9,8 @@ if (selectOpt.value === "error") {
         window.open(selectedOpt);
     }
 }
+
+function clickPicture(){
+    alert("Hey! :) ")
+    console.log("picture clicked")
+}
