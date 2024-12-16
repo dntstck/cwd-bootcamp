@@ -1,5 +1,6 @@
 body { /* sets the following code block to the <body> element */
     font-family: monospace; /* sets the font family */
+    font-size: 1em; /* sets a relative text size for all elements */
     background-color: #313131; /* sets the bg colour */
     color: #db5b05; /* the colour rgb code for the font */
     padding: 20px; /* sets the padding to 20 pixels, which generates 20 pixels of space around an element */
